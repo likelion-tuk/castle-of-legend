@@ -1,0 +1,25 @@
+김려은
+
+1. 작업할 폴더 이동
+cd /c/dev
+
+2. 저장소 clone 하기
+git clone https://github.com/likelion-tuk-14/assignment-20260401.git
+
+3. 저장소 폴더로 이동
+cd assignment-20260401
+
+4. 파일 생성
+echo "김려은" > "kimryeoeun.txt"
+
+5. 변경 내용 확인
+git status
+
+6. 파일 올릴 준비하기
+git add "kimyeoeun.txt"
+
+7. 커밋하기
+git commiit -m "Add kimryeoeun.txt"
+
+8. 푸시하기
+git push origin main
